@@ -3,7 +3,18 @@ body {
 	color: azure;
 }
 
+@keyframes split {
+	from {
+		font-size: 2rem;
+	}
+	to {
+		font-size: 5em;
+	}
+}
+
 .init {
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	text-align: center;
+	font-family: Encode Sans SC, 'Arial Narrow Bold', sans-serif;
+	font-variant: small-caps;
+	font-size: 2rem;
+	padding: 10px 0px 0px 20px
 }
