@@ -5,7 +5,7 @@ body {
 
 @keyframes split {
 	from {
-		font-size: 2rem;
+		font-size: 2em;
 	}
 	to {
 		font-size: 5em;

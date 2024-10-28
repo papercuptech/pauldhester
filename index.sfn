@@ -1,0 +1,55 @@
+SomeClass
+	memberA String
+	memberB Number
+
+	mA 'test'
+	mA
+		= 'test'
+
+	mA 0
+	mA 0.9
+	mA 2012-01-01T12:00:00.123
+
+	fnA memberA + memberB
+	
+	fnB arg1 + mA
+		arg1 String
+
+	fnC arg1 + arg2
+		arg1 String
+		arg2 String
+
+	fnC arg1:String + arg2:String
+
+	fnC
+		arg1 String
+		arg2 String
+
+		(arg1 + arg2)
+
+	fnC
+		arg1 String
+		arg2 String
+
+		=	if arg1 > arg2
+				if arg2 % 2 = 3
+					arg1
+				else
+					arg2
+			else
+				arg2		
+
+	fnC
+		arg1 String
+		arg2 String
+
+		=	arg1 + arg2
+
+
+	fnD fnC 1 2
+	
+
+
+	some-other-name
+	someOtherName
+	some_other_name

@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Encode Sans SC, "Arial Narrow Bold", sans-serif;
+  font-variant: small-caps;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+div {
+  font-size: 2em;
+}
+
+.init {
+  padding: 10px 0px 0px 20px;
+}
